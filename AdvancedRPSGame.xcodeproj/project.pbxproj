@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322099882761385E005DFE09 /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322099862761385E005DFE09 /* item.cpp */; };
+		322099912761404A005DFE09 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3220998F2761404A005DFE09 /* player.cpp */; };
+		32209994276141CC005DFE09 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32209992276141CC005DFE09 /* enemy.cpp */; };
+		32209997276165C6005DFE09 /* round.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32209995276165C6005DFE09 /* round.cpp */; };
+		3220999A2762C397005DFE09 /* hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322099982762C397005DFE09 /* hand.cpp */; };
+		3220999D276304F7005DFE09 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3220999B276304F7005DFE09 /* game.cpp */; };
 		323BF2E7275DB6C500AC7965 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 323BF2E6275DB6C500AC7965 /* main.cpp */; };
+		324EF1D6276136130092735B /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 324EF1D4276136130092735B /* character.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		322099862761385E005DFE09 /* item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = item.cpp; sourceTree = "<group>"; };
+		322099872761385E005DFE09 /* item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = item.hpp; sourceTree = "<group>"; };
+		3220998F2761404A005DFE09 /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		322099902761404A005DFE09 /* player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
+		32209992276141CC005DFE09 /* enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		32209993276141CC005DFE09 /* enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = enemy.hpp; sourceTree = "<group>"; };
+		32209995276165C6005DFE09 /* round.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = round.cpp; sourceTree = "<group>"; };
+		32209996276165C6005DFE09 /* round.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = round.hpp; sourceTree = "<group>"; };
+		322099982762C397005DFE09 /* hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hand.cpp; sourceTree = "<group>"; };
+		322099992762C397005DFE09 /* hand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hand.hpp; sourceTree = "<group>"; };
+		3220999B276304F7005DFE09 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		3220999C276304F7005DFE09 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
 		323BF2E3275DB6C500AC7965 /* AdvancedRPSGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvancedRPSGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		323BF2E6275DB6C500AC7965 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		324EF1D4276136130092735B /* character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		324EF1D5276136130092735B /* character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = character.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +78,21 @@
 		323BF2E5275DB6C500AC7965 /* AdvancedRPSGame */ = {
 			isa = PBXGroup;
 			children = (
+				322099982762C397005DFE09 /* hand.cpp */,
+				322099992762C397005DFE09 /* hand.hpp */,
 				323BF2E6275DB6C500AC7965 /* main.cpp */,
+				324EF1D4276136130092735B /* character.cpp */,
+				324EF1D5276136130092735B /* character.hpp */,
+				3220999B276304F7005DFE09 /* game.cpp */,
+				3220999C276304F7005DFE09 /* game.hpp */,
+				32209995276165C6005DFE09 /* round.cpp */,
+				32209996276165C6005DFE09 /* round.hpp */,
+				3220998F2761404A005DFE09 /* player.cpp */,
+				322099902761404A005DFE09 /* player.hpp */,
+				32209992276141CC005DFE09 /* enemy.cpp */,
+				32209993276141CC005DFE09 /* enemy.hpp */,
+				322099862761385E005DFE09 /* item.cpp */,
+				322099872761385E005DFE09 /* item.hpp */,
 			);
 			path = AdvancedRPSGame;
 			sourceTree = "<group>";
@@ -120,6 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				323BF2E7275DB6C500AC7965 /* main.cpp in Sources */,
+				3220999A2762C397005DFE09 /* hand.cpp in Sources */,
+				3220999D276304F7005DFE09 /* game.cpp in Sources */,
+				32209997276165C6005DFE09 /* round.cpp in Sources */,
+				322099912761404A005DFE09 /* player.cpp in Sources */,
+				324EF1D6276136130092735B /* character.cpp in Sources */,
+				322099882761385E005DFE09 /* item.cpp in Sources */,
+				32209994276141CC005DFE09 /* enemy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

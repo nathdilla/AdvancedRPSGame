@@ -1,0 +1,21 @@
+1030
+200
+2
+0
+0
+0
+rock
+14
+Weapon
+Upon the right hand- is a rock. Pointed edges and rough faces appear all over..
+0
+paper
+12
+Weapon
+In the left hand, there appears to be a sheet of paper. The paper appears thin and razor sharp.
+0
+scissors
+14
+Weapon
+On their back are scissors, capable of cutting through any sheet. They sparkle in the presence of the sunlight..
+0
